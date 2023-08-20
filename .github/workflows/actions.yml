@@ -12,6 +12,14 @@ jobs:
           ls
           whoami
           uptime
+
+      - name: Checkout
+        uses: actions/checkout@v1
+
+      - name: List Files again after Checkout
+        run: |
+          pwd
+          ls
       - name: Simple JS actions
         id: greet
         uses: actions/hello-world-javascript-action@v1
