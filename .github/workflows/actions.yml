@@ -19,7 +19,7 @@ jobs:
       - name: List Files again after Checkout
         run: |
           pwd
-          ls -la
+          ls -lrtha
       - name: Simple JS actions
         id: greet
         uses: actions/hello-world-javascript-action@v1
