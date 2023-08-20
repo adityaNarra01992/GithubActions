@@ -21,3 +21,13 @@ jobs:
           print(platform.processor())
         shell: python
 
+  run-windows-commands:
+    runs-on: windows-latest
+    steps:
+      - name: DirectoryPowershell
+        run: Get-Location
+      
+      - name: DirectoryBash
+        run: pwd
+        shell: bash
+
