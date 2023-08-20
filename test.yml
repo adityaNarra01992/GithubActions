@@ -1,4 +1,6 @@
-name: Adi
-age: 30
-addresss: "banglore Marathalli"
-active: true
+{
+  "name": "Adi",
+  "age": 20,
+  "addresss": "banglore Marathalli",
+  "active": true
+}
