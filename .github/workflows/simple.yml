@@ -1,0 +1,17 @@
+name: shell commands
+
+on: [push, pull_request]
+
+
+jobs:
+  run-shell-commands:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print a string
+        run: echo "this is to test gihtub actions test"
+
+      - name: multilinescript
+        run: |
+          node -v
+          npm -v
+          
